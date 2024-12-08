@@ -22,5 +22,11 @@ public class Board {
     public void setRows    (int value) { this.rows    = value; }
     public void setColumns (int value) { this.columns = value; }
 
+    public Piece piece (int row, int column) {
+        return this.pieces[row][column];
+    }
 
+    public Piece piece (Position position) {
+        return this.pieces[position.getRow()][position.getColumn()];
+    }
 }
