@@ -9,10 +9,11 @@ public class TUI {
             System.out.print((8-i)+" ");
             for(int j=0; j<pieces.length; j++) {
                 printPiece(pieces[i][j]);
+                
             }
             System.out.println();
         }
-        System.out.println("  a b c d e f g h");
+        System.out.println("  A B C D E F G H");
     }
 
     private static void printPiece(ChessPiece piece) {
