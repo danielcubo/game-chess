@@ -16,5 +16,4 @@ public class ChessPiece extends Piece {
 
     // Getter Methods
     public Color getColor () { return this.color; }
-    
 }

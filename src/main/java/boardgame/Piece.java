@@ -4,11 +4,12 @@ public class Piece {
 
     // Basic Attributes
     protected Position position;
-    private Board board;
+    private   Board    board;
 
     // Construtor with Arguments
     public Piece (Board board) {
-        this.board = board;
+        this.position = null;
+        this.board    = board;
     }
 
     // Getter Methods
